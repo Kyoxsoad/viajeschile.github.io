@@ -45,3 +45,12 @@ body {
   height: 200px; /* Establece la altura deseada para las imágenes */
   object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo su relación de aspecto */
 }
+
+.carousel-inner .carousel-item {
+  transition: opacity 2s ease-in-out;
+  opacity: 0;
+}
+
+.carousel-inner .carousel-item.active {
+  opacity: 1;
+}
