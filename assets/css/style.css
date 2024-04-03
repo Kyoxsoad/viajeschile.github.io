@@ -2,4 +2,46 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
+  font-family: "Inconsolata", sans-serif;
+}
+.titulo {
+  text-align: center;
+  color: white;
+  margin-bottom: 3rem;
+}
+#tarjetas i {
+  font-size: 2rem;
+}
+#destacados h4 {
+  margin-top: 3rem;
+}
+
+.titulos {
+  color: white;
+  font-weight: 700;
+}
+
+.formulario h2 {
+  color: white;
+}
+.formulario {
+  margin-bottom: 2rem;
+}
+
+#footer {
+  padding: 1rem;
+}
+
+#footer h4 {
+  color: white;
+}
+
+#iconos i {
+  color: white;
+  font-size: 2rem;
+}
+
+.card-img-top {
+  height: 200px; /* Establece la altura deseada para las imágenes */
+  object-fit: cover; /* Ajusta la imagen para cubrir el contenedor manteniendo su relación de aspecto */
 }
