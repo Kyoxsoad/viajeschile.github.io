@@ -9,6 +9,9 @@ body {
   color: white;
   margin-bottom: 3rem;
 }
+.titulo h4 {
+  margin-top: 2rem;
+}
 #tarjetas i {
   font-size: 2rem;
 }
@@ -20,7 +23,9 @@ body {
   color: white;
   font-weight: 700;
 }
-
+.cartas {
+  margin-top: 2rem;
+}
 .formulario h2 {
   color: white;
 }
