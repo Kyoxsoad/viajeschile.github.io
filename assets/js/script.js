@@ -1,10 +1,11 @@
 $(document).ready(function () {
   $("#enviarCorreo").click(function () {
-    alert("Se envió correctamente el correo.");
-  }); //envia un mensaje de alerta cuando se presiona enviar
+    $("#confirmacionModal").modal("show");
+  });
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+  //transicion imagenes carrusel
   let carousel = document.querySelector(".carousel");
   let intervalId = setInterval(function () {
     $(".carousel").carousel("next");
@@ -42,6 +43,7 @@ $(window).scroll(function () {
     $(".navbar").removeClass("bg-black ");
   }
 });
+
 var tooltips = [].slice.call(
   document.querySelectorAll('[data-bs-toggle="tooltip"]')
 );
